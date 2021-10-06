@@ -1,0 +1,16 @@
+import * as React from 'react'
+import './{{componentName}}.css'
+
+interface I{{componentName}} {
+
+}
+
+const {{componentName}}: React.FC<I{{componentName}}> = () => {
+  return (
+    <div className='{{componentName}}'>
+
+    </div>
+  )
+} 
+
+export default {{componentName}}

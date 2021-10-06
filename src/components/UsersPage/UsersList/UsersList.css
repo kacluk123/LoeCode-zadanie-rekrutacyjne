@@ -1,0 +1,30 @@
+.UsersList__container {
+  height: 500px;
+  overflow: auto;
+}
+
+.UsersList {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+  margin-left: 15px;
+}
+
+.UsersList__element {
+  display: inline;
+}
+
+.UsersList__element-main-text {
+  color: var(--main-black);
+  font-weight: 600;
+  margin-left: 7px;
+}
+
+.UsersList__element-addon-text {
+  font-size: var(--secondary-font);
+  color: var(--main-grey);
+}
+
+.UsersList__element-username {
+  margin-left: 11px;
+}
