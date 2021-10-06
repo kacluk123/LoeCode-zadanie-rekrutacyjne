@@ -19,7 +19,7 @@ beforeAll(() => server.listen())
 afterEach(() => server.resetHandlers())
 afterAll(() => server.close())
 
-describe('Users list text', () => {
+describe('Users list test', () => {
   test('Should display initial element from api request', async () => {
     const { getAllByTestId, queryByText , getByText } = render(<UsersPage />);
     expect(getByText('Loading...')).toBeInTheDocument()
