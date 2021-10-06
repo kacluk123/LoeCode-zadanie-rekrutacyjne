@@ -4,7 +4,7 @@ import { UsersList } from './UsersList';
 import { RequestStatuses } from '../../../hooks/requestStatus';
 import { users } from '../../../testUtils/mock/user'
 
-describe('Users list text', () => {
+describe('Users list test', () => {
   test('Should display all list elements', () => {
     const { getAllByTestId } = render(<UsersList requestStatus={RequestStatuses.Done} users={users} />);
     expect(getAllByTestId('user-list-element').length).toBe(10)
